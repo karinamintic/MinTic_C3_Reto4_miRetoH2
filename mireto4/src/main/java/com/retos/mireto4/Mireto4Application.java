@@ -1,3 +1,20 @@
+/*
+1. Modelo -> Ok
+2. Interface -> Ok
+3. Repositorio -> Ok
+4. Servicios -> Ok
+5. Web -> Ok
+*/
+
+/**
+ * Tablas a construir
+Patineta
+Categoria
+Cliente
+Mensaje
+Reservaciones
+ */
+
 package com.retos.mireto4;
 
 import org.springframework.boot.SpringApplication;
