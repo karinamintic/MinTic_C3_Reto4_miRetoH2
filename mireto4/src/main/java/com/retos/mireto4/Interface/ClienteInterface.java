@@ -1,6 +1,10 @@
 package com.retos.mireto4.Interface;
 
-public interface ClienteInterface
+import com.retos.mireto4.Modelo.Cliente;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface ClienteInterface extends CrudRepository<Cliente,Integer>
 {
 
 }

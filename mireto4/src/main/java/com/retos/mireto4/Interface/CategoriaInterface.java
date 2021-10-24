@@ -1,6 +1,10 @@
 package com.retos.mireto4.Interface;
 
-public interface CategoriaInterface
+import com.retos.mireto4.Modelo.Categoria;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface CategoriaInterface extends CrudRepository<Categoria,Integer>
 {
 
 }

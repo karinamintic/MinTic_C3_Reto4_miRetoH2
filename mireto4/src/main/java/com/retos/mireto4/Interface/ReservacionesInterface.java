@@ -1,5 +1,9 @@
 package com.retos.mireto4.Interface;
 
-public interface ReservacionesInterface 
+import com.retos.mireto4.Modelo.Reservaciones;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface ReservacionesInterface extends CrudRepository<Reservaciones,Integer>
 {
 }
